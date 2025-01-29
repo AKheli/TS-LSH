@@ -26,9 +26,9 @@ python -m pip install sugartensor==1.0.0.2
 
 # Install Python 3.8 and virtual environment tools
 sudo apt install -y python3.8 python3.8-venv libpython3.8-dev python3-dev
-python3.8 -m venv TSMvenv
+python3.8 -m venv TSLSHvenv
 . TSLSHvenv/bin/activate
 python3.8 -m pip install --upgrade pip
 
 # Install Python packages for Python 3.8
-pip3 install saxpy numpy pandas protobuf==3.13.0 tqdm gdown pylab-sdk sqlalchemy matplotlib matplotlib_terminal jsonlines lshashpy3
+pip3 install saxpy numpy pandas protobuf==3.13.0 tqdm gdown pylab-sdk sqlalchemy matplotlib matplotlib_terminal jsonlines lshashpy3 torch
