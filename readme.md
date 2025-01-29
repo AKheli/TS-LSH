@@ -6,8 +6,8 @@ This module is designed to simulate and generate realistic time series data. To 
 
 - Extract seed sequences from real time-series data to define the base dataset.  
 - Use generative adversarial networks (GANs) to synthesize new time-series fragments from the extracted seeds.  
-- Construct a directed graph using the generated synthetic fragments.  
-- Apply a random walk algorithm on the directed graph to generate continuous and coherent time series data.  
+- Construct Locality-Senstive Hash tables using the generated synthetic fragments.  
+- Apply a querying algorithm on the hash tables to generate continuous high-quality time series data.  
 
 ## **Dependencies**  
 
